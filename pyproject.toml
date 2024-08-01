@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ozone-health-risks-china"
+version = "0.1.0"
+description = ""
+authors = ["Ram <codercat@163.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+lightgbm = "^4.5.0"
+xgboost = "^2.1.1"
+seaborn = "^0.13.2"
+torch = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
